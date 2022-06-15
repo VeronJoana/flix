@@ -1,0 +1,90 @@
+
+body{
+    font-family: sans-serif;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+}
+
+.titulo{
+    color: red;
+    font-size: 70px;
+    padding-left: 480px;
+
+
+}
+
+.items{
+    
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.items a{
+    color: red;
+    text-decoration: none;
+    
+}
+
+.card{
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 25px;
+    margin-top: -15px;
+}
+.contenedor-card{
+    display: flex;
+    width: 100%;
+
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.items a:hover{
+    color: white;
+}
+
+.card-title{
+    color:red
+}
+
+.categori{
+    color:red
+}
+
+.card-text{
+    color:red
+}
+
+.contenedor-peli{
+    background-color: black;
+}
+
+.contenedor-crd-scream{
+    width: 300px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
